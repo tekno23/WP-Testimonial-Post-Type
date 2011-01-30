@@ -45,7 +45,7 @@ function create_testimonial_post_type() {
     'has_archive' => true,
     'hierarchical' => false,
     'menu_position' => 6,
-    'supports' => array('title','editor','author','thumbnail','excerpt'),
+    'supports' => array('title','editor','thumbnail'),
     'menu_icon' => '/wp-content/plugins/'.basename(dirname(__FILE__)).'/icon.png',
     'rewrite' => array(
       'slug' => 'testimonials',
